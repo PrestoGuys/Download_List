@@ -4,9 +4,10 @@
 import json
 import time
 import os
+import sys
 
 # print opening message
-print('Download List v1.0')
+print('Download List v1.0.0')
 
 #
 with open('dl_list.json', 'r') as dllist:
@@ -37,3 +38,5 @@ while prompt is True:
             os.system('axel ' + dl_link)
 
             currdl += 1
+    if user_input == 'exit':
+        sys.exit()

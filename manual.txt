@@ -1,0 +1,2 @@
+TO DOWNLOAD:
+    1. Add links to download from to "dl_list.json"
